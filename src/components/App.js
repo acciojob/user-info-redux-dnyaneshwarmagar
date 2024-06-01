@@ -23,10 +23,10 @@ const App = () => {
           <input type="email" value={email} onChange={(e)=>dispatch(updateEmail(e.target.value))} />
         </label>
       </div>
-      <div>
+      <div className="output">
         <h2>Current values in store</h2>
-        <p>Name: {name}</p>
-        <p>Email: {email}</p>
+        <p>Name- {name}</p>
+        <p>Email- {email}</p>
       </div>
         {/* Do not remove the main div */}
     </div>
