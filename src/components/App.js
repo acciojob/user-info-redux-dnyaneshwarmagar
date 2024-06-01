@@ -24,9 +24,9 @@ const App = () => {
         </label>
       </div>
       <div className="output">
-        <h2>Current values in store</h2>
-        <p>Name- {name}</p>
-        <p>Email- {email}</p>
+        <p>Current values in store</p>
+        <p>Name - {name}</p>
+        <p>Email - {email}</p>
       </div>
         {/* Do not remove the main div */}
     </div>
