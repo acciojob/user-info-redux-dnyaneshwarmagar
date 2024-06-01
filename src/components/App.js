@@ -20,7 +20,7 @@ const App = () => {
       <div>
         <label>
           Email:
-          <input type="text" value={email} onChange={(e)=>dispatch(updateEmail(e.target.value))} />
+          <input type="email" value={email} onChange={(e)=>dispatch(updateEmail(e.target.value))} />
         </label>
       </div>
       <div>
